@@ -1,0 +1,188 @@
+@font-face { font-family:'Raleway',sans-serif;}
+
+html body {
+    font-family:'Raleway',sans-serif;
+    width : 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;}
+
+li {cursor:pointer; }
+
+/*GLobal Styles*/
+p { color: word-spacing: 1px; line-height: 25px; font-size: 18px; }
+
+h1 { font-size: 7vmin;}
+h2 { font-size: 6vmin;}
+h3 { font-size: 5vmin;}
+h4 { font-size: 4vmin;}
+h5 { font-size: 3vmin;}
+h6 { font-size: 2vmin;}
+
+.section-padding {padding: 13vmin 0 12vmin;}
+.section-padding-to {padding-top:13vmin;}
+.section-padding-bo {padding-bottom:12vmin;}
+.nopadding {padding-right: 0px; padding-left: 0px;}
+
+.vert{vertical-align: middle;}
+/* class gap-xy || 'm' for margin & 'p' for padding */
+.gap-1m { margin-top: 18vmin;}  .gap-1p { padding-top: 18vmin;}
+.gap-2m { margin-top:  9vmin;}  .gap-2p { padding-top:  9vmin;}
+.gap-3m { margin-top:  5vmin;}  .gap-3p { padding-top:  5vmin;}
+.gap-4m { margin-top:  3vmin;}  .gap-4p { padding-top:  3vmin;}
+
+.hr-light { height:7px; width:72px; background-color: #b3b3b3; border:0 none;}
+.hr-dark  { height:7px; width:72px; background-color: #333333; border:0 none;}
+
+.delay-05  {-webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; -o-animation-delay: 0.5s; animation-delay: 0.5s;}
+.delay-10  {-webkit-animation-delay:   1s; -moz-animation-delay:   1s; -o-animation-delay:   1s; animation-delay:   1s;}
+.delay-15  {-webkit-animation-delay: 1.5s; -moz-animation-delay: 1.5s; -o-animation-delay: 1.5s; animation-delay: 1.5s;}
+
+.duration-05  {-webkit-animation-duration: 0.5s; -moz-animation-duration: 0.5s; -o-animation-duration: 0.5s; animation-duration: 0.5s;}
+.duration-10  {-webkit-animation-duration:   1s; -moz-animation-duration:   1s; -o-animation-duration:   1s; animation-duration:   1s;}   
+.duration-15  {-webkit-animation-duration: 1.5s; -moz-animation-duration: 1.5s; -o-animation-duration: 1.5s; animation-duration: 1.5s;}   
+
+/* ==========================================================================
+ * Home Section
+   ========================================================================== */
+
+.home {
+    min-height:100%; color:#f9f9f9;
+    background:url(../images/home-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;}
+
+.home img{max-width:100%;}
+.home span{color:#ecf0f1; font-size: 4vmin;}
+
+.btn-home{text-decoration: none;color: #f9f9f9; font-size:5vmin; bottom:50px;}
+.btn-home:hover, .btn-home:focus {color:#ff6666;}
+
+/* ==========================================================================
+ * Profile Section
+   ========================================================================== */
+.profile {color:#e74600;}
+.ohai { color: #e74600; text-transform: uppercase;}
+.profile p {color:#c3c3c3;}
+
+/* ==========================================================================
+ * Hidden-one
+   ========================================================================== */
+.hidden-one {
+    background:url(../images/hidden-2-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#f9f9f9;
+    padding: 9% 0 7% 0;}
+
+.blockquote-reverse{
+  font-size: 5vmin;
+  padding-right: 7%;
+  border-right: 8px solid #f9f9f9;
+  }
+blockquote footer{color:#f9f9f9;}
+
+/* ==========================================================================
+ * Skill Section
+   ========================================================================== */
+.skill{background-color: #f9f9f9; color:#e74600;}
+.skill h1{text-transform: uppercase;}
+.skill p{color:#c3c3c3;}
+
+.tri-icons img{ max-width:100%;}
+.tri-icons img {
+    -webkit-transition: all 500ms ease-in-out; 
+    -moz-transition: all 500ms ease-in-out; 
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;}
+
+.tri-icons img:hover {
+    -webkit-transform: translate(0, -15px); 
+    -moz-transform: translate(0, -15px);
+    -o-transform:translate(0, -15px);   
+    transform: translate(0, -15px); }
+
+.tri-icons span { color: #e74600;}
+.tri-icons h3 { color: #b3b3b3; letter-spacing: 2px;}
+.tri-icons p{letter-spacing: 1px;}
+
+/* ==========================================================================
+ * Folio
+   ========================================================================== */
+.folio {background-color: #f9f9f9; color:#e74600;}
+
+.folio #first{
+    height:100%;
+    padding-bottom:18vmin;
+    background:url(../images/folio-1.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#f9f9f9;}
+
+.folio #second{
+    height:100%;
+    padding-bottom:18vmin;
+    background:url(../images/folio-2.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#f9f9f9;}
+
+.folio #first:hover, .folio #second:hover{
+  background-position:0 0%;
+  transition: 1000ms;}
+
+.folio #third{
+  padding-bottom:10vmin;
+}
+
+.btn-folio{
+  text-decoration: none; 
+  font-size:3vmin;   
+  color:#e74600; 
+  padding:1% 12% 1% 12%;
+  border:2px solid #e74600;
+  border-radius:0;}
+
+.btn-folio:hover, .btn-folio:focus{
+  background-color: #e74600;
+  color: #f9f9f9;
+  box-shadow:0 1vmin 0 #ff6666;
+  transition: 500ms;}
+
+/* ==========================================================================
+ * Contact
+   ========================================================================== */
+.contact{
+  height:75%;
+  color:#e74600;
+  letter-spacing: 2px;}
+
+/* ==========================================================================
+ * Hidden-two
+   ========================================================================== */
+.hidden-two {
+    background-image:url(../images/hidden-1-bg.jpg); no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#f9f9f9;
+    padding: 7% 0 7% 0;}
+
+.hidden-two h1 { font-size: 8vmin; text-transform: uppercase; letter-spacing: 5px;}
+.hidden-two span{color:#ff6666;}

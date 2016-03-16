@@ -1,0 +1,29 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+    .home, .hidden-one, .hidden-two { background-attachment: scroll; }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+    .home, .hidden-one, .hidden-two { background-attachment: scroll; }
+    .folio p{font-size: 3vmin;}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+    .tri-icons img{ max-width:75%;}
+    .tri-icons h3{font-size: 7vmin;}
+    .folio p{font-size:3vmin; margin-top: -30px;}
+    }
